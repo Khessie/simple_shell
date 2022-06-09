@@ -38,4 +38,4 @@ void _puts(char *str);
 int _putchar(char c);
 char *_memset(char *s, char b, unsigned int n);
 
-#endif /* SHELL_H *
+#endif /* SHELL_H */
