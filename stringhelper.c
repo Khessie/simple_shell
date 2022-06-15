@@ -88,16 +88,16 @@ dest[i] = '\0';
 return (dest);
 }
 /**
- * _strlen - returns the length of a string
- * @s: character type
- * i - integer type
- * Return: integer type
+ *_strlen - returns the length of a string
+ *   * @s: character type
+ *    * i - integer type
+ *     * Return: integer type
  */
 int _strlen(char *s)
 {
-int i;
+	int i;
 
-for (i = 0; s[i]; i++)
-;
-return (i);
+	for (i = 0; s[i]; i++)
+		;
+	return (i);
 }
