@@ -7,10 +7,10 @@
  */
 char **tokenize(char *buffer)
 {
-char *token;
-int i = 0, wordcount = 0;
-char *delimiter = " \n";
-char **av;
+	char *token;
+	int i = 0, wordcount = 0;
+	char *delimiter = " \n";
+	char **av;
 
 wordcount = _splitstring(buffer);
 if (!wordcount)
